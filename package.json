@@ -1,0 +1,7 @@
+{
+	"name": "greenhousepm",
+	"private": true,
+	"workspaces": [
+		"lib"
+	]
+}
