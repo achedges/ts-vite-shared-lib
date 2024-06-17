@@ -2,11 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import {GreenhouseResponse} from "lib";
+import {GreenhouseResponse} from "lib/models/response";
 
 function App() {
   const [count, setCount] = useState(0)
-  const response: GreenhouseResponse = new GreenhouseResponse(200, 'Ok');
+  const response: GreenhouseResponse = new GreenhouseResponse(200, 'OMG bro...');
 
   return (
     <>
